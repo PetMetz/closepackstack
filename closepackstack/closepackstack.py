@@ -509,7 +509,7 @@ def write_cif(Structure, fname, debug=None):
         - current Structure object has no thermal displacement attribute -> default to 1 (Biso)
     """
     # NAME, METHOD, lpa, lpb, lpc, lpal, lpbe, lpga, SG, SITE_BLOCK
-    from peter.stringtemplates.templates import template_cif
+    from templates import template_cif
     from os.path import abspath
     
     # get unique labels
